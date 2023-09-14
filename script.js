@@ -41,7 +41,7 @@ submit.addEventListener("click",(e)=>{
 	e.preventDefault()
 	getWeather(city.value);
 });
-getWeather("Dehli")
+getWeather("Delhi")
 
 
 fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=kolkata', options)
